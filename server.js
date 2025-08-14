@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 5050;
 
 const WS_URL = "wss://mynygwais.hytsocesk.com/websocket";
-const accessToken = "1-22f3e43fd230bd4ea1cb170b277840c8";
+const accessToken = "1-bc6f855cd68f16466d9c0e50c7989e1a";
 const ID = "Tiep1412010";
 
 let ws;
