@@ -3,7 +3,7 @@ const fetch = require('node-fetch'); // Nếu Node 18+ thì dùng fetch trực t
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const SOURCE_URL = 'https://tintuc-thoisu-neoy.onrender.com/data';
+const SOURCE_URL = 'https://binhtool-hitpredict.onrender.com/api/taixiu';
 
 app.get('/data', async (req, res) => {
   try {
