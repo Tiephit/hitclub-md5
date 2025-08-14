@@ -1,15 +1,15 @@
 {
-  "name": "hitclub-md5",
+  "name": "hitclub-tool",
   "version": "1.0.0",
-  "description": "Proxy API từ tintuc-thoisu-neoy.onrender.com/data",
+  "description": "Tool phân tích game HitClub sử dụng WebSocket",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
-  "author": "binhtool90",
-  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
-    "node-fetch": "^2.6.9"
-  }
+    "express": "^4.19.2",
+    "ws": "^8.17.1"
+  },
+  "author": "binhtool90",
+  "license": "ISC"
 }
